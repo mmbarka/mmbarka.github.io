@@ -617,6 +617,9 @@ footer{
     .progress-bar70:before{
         width: 45%;
     }
+    .progress-bar90:before{
+        width: 58%;
+    }
     .progress-bar95:before{
         width: 60%;
     }
@@ -626,6 +629,14 @@ footer{
         }
         100%{
             width: 60%;
+        }
+    }
+    @keyframes bar95{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 58%;
         }
     }
     @keyframes bar70{
@@ -691,12 +702,23 @@ footer{
     .progress-bar95:before{
         width: 60%;
     }
+    .progress-bar90:before{
+        width: 58%;
+    }
     @keyframes bar95{
         0%{
             width: 0%;
         }
         100%{
             width: 60%;
+        }
+    }
+    @keyframes bar90{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 58%;
         }
     }
     @keyframes bar70{
