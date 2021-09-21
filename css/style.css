@@ -631,7 +631,7 @@ footer{
             width: 60%;
         }
     }
-    @keyframes bar95{
+    @keyframes bar90{
         0%{
             width: 0%;
         }
@@ -692,7 +692,7 @@ footer{
     .main_comp{
         flex-direction: column;
     }
-    .html, .js, .bootstrap, .wordpress{
+    .htmlCss, .js, .bootstrap, .wordpress{
         width: 80%;
         margin: auto;
     }
